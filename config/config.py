@@ -48,7 +48,7 @@ OWNER_ID = list(
 )  # Input type must be interger
 
 # BACOT
-OWNER_ID.append(940232666)
+OWNER_ID.append(936922513)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -59,7 +59,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/TopMutualanGrup",
+    "https://t.me/TatsuyaMusicStream",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Musikku")
 
