@@ -52,7 +52,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="Owners", url=f"https://t.me/+18502258953"
+                text="Owners", url=f"https://t.me/Usern4me404NotFound"
             ),
         ],
         [
@@ -84,7 +84,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="Owners", url=f"https://t.me/+18502258953"),
+            InlineKeyboardButton(text="Owners", url=f"https://t.me/Usern4me404NotFound"),
         ],
         [
             InlineKeyboardButton(
@@ -114,7 +114,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="Owners", url=f"https://t.me/+18502258953"),
+            InlineKeyboardButton(text="Owners", url=f"https://t.me/Usern4me404NotFound"),
         ],
     ]
     return buttons
